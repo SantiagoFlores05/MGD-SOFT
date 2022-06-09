@@ -1,0 +1,147 @@
+
+
+body{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header{
+    font-family: 'Fjalla One', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li{
+    color: white;
+}
+
+.hl{
+
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header .bb{
+    margin: 50px;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+header nav{
+    float: right;
+    line-height: 150px;
+
+}
+
+header nav a{
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    color: rgb(255, 254, 254);
+
+}
+
+header nav a:hover{
+
+    background:rgb(255, 250, 250);
+    border-radius:50px;
+    color: rgb(2, 2, 2);
+}
+
+
+.row{
+    
+    margin-top: 50px ;
+    margin-left: 60px;
+    margin-right: 20px ;
+    
+}
+
+.btn-danger{
+
+    background-color: #020000;
+
+}
+
+.btn-danger:hover{
+    background-color: #870000;
+
+
+}
+
+.pru{
+    
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.prue{
+    
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+input[type="number"]{
+    outline: none;
+    padding: 10px;
+    display: block;
+    width: 100px;
+    justify-content: center;
+    color: #000000;
+    border: 1px solid  rgb(0, 0, 0);
+  
+}
+
+
+.pantalla-dividida1{
+
+    display: flex;
+
+
+
+}
+
+
+.izquierda1{
+    height: 40vh;
+    width: 50%;
+}
+
+
+.derecha1{
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 40vh;
+
+}
+
+
+.gracias{
+
+    color: white;
+}
+
+.fs{
+
+    font-size: 60px;
+    width: 50%;
+}

@@ -1,0 +1,103 @@
+body{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+   
+   .navegador{
+   
+       float: left;
+       width: 100%;
+       background: #870000;  /* fallback for old browsers */
+       background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+       background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       color: white;
+       padding: 0px 20px;
+       transition: .3s ease all;
+       backface-visibility: hidden;
+       transform: translate(0, 0, 0);
+       -webkit-transform: translate3d(0, 0, 0);
+       font-family: 'Fjalla One', sans-serif;
+   
+   }
+   
+   nav .wrap{
+    
+    left: -150px;
+    transition: 0.4s ease all;
+   
+   
+   }
+   
+   
+   
+   nav{
+   
+   display: inline-block;
+   
+   }
+   
+   
+   
+   
+   nav ul{
+   
+   margin: 0;
+   padding: 0;
+   
+   }
+   
+   nav li{
+   
+   
+       margin: 0;
+       padding: 0;
+       display: inline-block;
+   }
+   
+   
+   nav a{
+   
+   display: flex;
+   padding: 20px;
+   margin: 0;
+   color: white;
+   text-decoration: none;
+   transition: 0.2s ease all;
+   
+   }
+   
+   
+   nav a:hover{
+   
+       color: rgb(0, 0, 0);
+       background-color: rgb(255, 255, 255);
+   }
+   
+
+
+   .arriba{
+
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    bottom: 40px;
+    right: 50px;
+   text-decoration: none; 
+    text-align: center;
+      
+   font-size: 22px;
+}
+
+
+.row{
+    
+    margin-top: 50px ;
+    margin-left: 60px;
+    margin-right: 20px ;
+    
+}

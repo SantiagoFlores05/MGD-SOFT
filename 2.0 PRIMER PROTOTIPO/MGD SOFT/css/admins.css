@@ -1,0 +1,45 @@
+*{ 
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+.col-md-8{
+
+    margin: auto;
+
+    text-align: center;
+}
+   
+
+
+
+.arriba{
+
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    bottom: 40px;
+    right: 50px;
+   text-decoration: none; 
+    text-align: center;
+      
+   font-size: 22px;
+}
+
+.pru{
+    
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.prue{
+    
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
